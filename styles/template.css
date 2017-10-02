@@ -1,0 +1,109 @@
+body { 
+       font-family: 'Poiret One', cursive;
+       background-color: #FCC8B2;
+       color: white;	
+       font-size: 32pt;}
+
+a, a:hover, a:active, a:visited {text-decoration: none;}
+
+a {text-decoration: none;}
+
+/*********************************
+ CONTAINERS AND GRIDS
+
+*********************************/
+
+/*Note: column, float, clear, and vertical-align have no effect on a grid container.*/
+
+.grid {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 25% 50% 25%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+
+}
+
+
+.grid div img {
+	height: 80%;
+	}
+
+
+.header {
+  grid-area: header;
+  grid-column: 1/6;
+  grid-row: 1/2;}
+
+
+
+
+.main_1 {
+  grid-area: main_1; 
+  grid-column: 1/2;
+  grid-row: 2/3;}
+
+#popsickle {
+
+text-decoration: none;
+}
+
+
+.main_2 {
+  grid-area: main_2; 
+  grid-column: 2/3;
+  grid-row: 2/3;}
+
+
+#cookie {
+
+text-decoration: none;
+}
+
+.main_3 {
+  grid-area: main_3; 
+  grid-column:3/4;
+  grid-row: 2/3;}
+
+#icecream {
+
+text-decoration: none;
+}
+
+.main_4 {
+  grid-area: main_4; 
+  grid-column: 4/5;
+  grid-row: 2/3;}
+
+#cupcake {
+
+text-decoration: none;
+}
+
+.main_5 {
+  grid-area: main_5; 
+  grid-column: 5/6;
+  grid-row: 2/3;}
+
+#lollipop {
+
+text-decoration: none;
+}
+
+.footer {
+  grid-area: footer;
+  grid-column: 1/6;
+  grid-row: 3/4;
+  height: 40%;
+  font-size: 27pt;
+  justify-self: right;
+ }
+
+#panda{
+
+text-decoration: none;
+}
+
+

@@ -1,0 +1,163 @@
+﻿<!Doctype html>
+<html>
+<head>
+	<meta name="landingpage" content="landingpage"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link href="styles/template.css" rel="stylesheet" type="text/css"/>
+	<link href="styles/animate.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> 
+	<script src="script/sript.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title>
+		Landing Page
+	</title>
+
+</head>
+
+<body>
+ 
+
+
+<!--Images -->
+		
+ <div class="grid">
+	
+<!-- Header -->
+
+	<div class="header">
+         <h1>
+ 	    < HEADDERICH /> 
+	 </h1>
+	</div>
+		<div class="main_1" id="popsickle">
+			<img src="img/KawaiiSummer.png">
+ 	 	</div>
+
+ 	 	<div class="main_2" id="cookie">
+   	 		<img src="img/KawaiiSummer2.png"> 
+ 	 	</div>
+
+ 	  	<div class="main_3" id="icecream">
+   	 		<img src="img/KawaiiSummer3.png" > 
+ 	 	</div>
+	
+		<div class="main_4" id="cupcake">
+   	 		<img src="img/KawaiiSummer4.png" > 
+ 	 	</div>
+
+		<div class="main_5" id="lollipop">
+   	 		<img src="img/KawaiiSummer5.png" > 
+ 	 	</div>
+
+	<!--Footer -->
+	
+		<div class="footer" id="footerich">
+			 <img src="img/footerich.png" id="panda"> <br>
+			< FOOTERICH /> 
+	    </div>
+</div>
+
+<script type="application/javascript"> 
+
+
+
+$(document).ready(function() {
+   
+//popsickle
+
+ $("#popsickle").click(function() {
+	
+	$("#popsickle").addClass('animated ' + 'jello');        
+      
+        window.setTimeout( function(){
+        
+        $("#popsickle").removeClass('animated ' + 'jello');
+         
+         }, 3000);         
+  
+
+	});
+
+//cookie
+$("#cookie").click(function() {
+	
+	$("#cookie").addClass('animated ' + 'bounceIn');        
+      
+        window.setTimeout( function(){
+        
+        $("#cookie").removeClass('animated ' + 'bounceIn');
+         
+         }, 7000);         
+  
+
+	});
+
+//icecream
+$("#icecream").click(function() {
+	
+	$("#icecream").addClass('animated ' + 'wobble');        
+      
+        window.setTimeout( function(){
+        
+        $("#icecream").removeClass('animated ' + 'wobble');
+         
+         }, 3000);         
+  
+
+	});
+
+//cupcake
+$("#cupcake").click(function() {
+	
+	$("#cupcake").addClass('animated ' + 'tada');        
+      
+        window.setTimeout( function(){
+        
+        $("#cupcake").removeClass('animated ' + 'tada');
+         
+         }, 3000);         
+  
+
+	});
+
+
+//lollipop
+$("#lollipop").click(function() {
+	
+	$("#lollipop").addClass('animated ' + 'flip');        
+      
+        window.setTimeout( function(){
+        
+        $("#lollipop").removeClass('animated ' + 'flip');
+         
+         }, 3000);         
+  
+
+	});
+
+//panda
+$("#panda").click(function() {
+	
+	$("#panda").addClass('animated ' + 'rubberBand');        
+      
+        window.setTimeout( function(){
+        
+        $("#panda").removeClass('animated ' + 'rubberBand');
+         
+         }, 3000);         
+  
+
+	});
+
+});
+</script>
+
+
+
+
+
+	
+</div>
+
+</body>
+</html>
